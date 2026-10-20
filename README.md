@@ -10,7 +10,7 @@ Global illumination is the indirect lighting that makes a scene look believable:
 
 This project measures what they **cost in frame time**. It compares **Radiance Cascades (RC)**, a newer GI technique, against other GI methods available in Unity, in three different scenes.
 
-The repository holds the **measured data only**. It does not contain the Unity project, the RC implementation or the paper itself (see [What is not in this repo](#what-is-not-in-this-repo)).
+The repository holds the **measured data only**.
 
 ### Methods compared
 
@@ -19,7 +19,7 @@ The repository holds the **measured data only**. It does not contain the Unity p
 | `NoGI` | Baseline with no global illumination |
 | `RC` | Radiance Cascades |
 | `SSGI` | Screen-Space Global Illumination |
-| `RTLM` | A Unity GI method; the abbreviation is not defined in the repo (see [Open questions](#open-questions)) |
+| `RTLM` | A Unity GI method |
 
 ### Test scenes
 
